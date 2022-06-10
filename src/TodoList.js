@@ -3,7 +3,7 @@ const generateID = (array) => {
   return array[array.length - 1].id + 1;
 };
 
-class Todo {
+export default class TodoList {
   constructor(todoList = []) {
     this.todoList = todoList;
   }
